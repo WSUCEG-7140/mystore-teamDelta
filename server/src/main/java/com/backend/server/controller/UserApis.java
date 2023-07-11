@@ -19,6 +19,11 @@ public class UserApis {
     @PostMapping("/login")
     public void userLogin(){}
     
+    @GetMapping("/getUser")
+    public Optional<User> getUser(@RequestParam("mobileMumber") String mobileNumber){
+        return(userService.getUser(mobileNumber));
+    }
+
 
     
 
