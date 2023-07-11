@@ -18,5 +18,17 @@ public class InventoryApis {
     Inventory updateItem(@RequestBody Inventory item){
         return inventoryService.updateItem(item);
     }
+
+    @PostMapping("/addItem")
+    Inventory addItem(@RequestBody Inventory inventory){
+
+        return inventoryService.addItem(inventory);
+    }
+
+    @GetMapping("/getItemById")
+    Optional<Inventory> getItemById(@RequestParam("itemId") int itemid){
+
+        return inventoryService.getItemById(itemid);
+    }
     
 }
