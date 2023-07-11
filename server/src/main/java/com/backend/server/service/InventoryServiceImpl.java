@@ -13,7 +13,7 @@ public class InventoryServiceImpl implements InventoryService{
     @Autowired
     InventoryRepository inventoryRepository;
     @Override
-    public Inventory addItem(Inventory inventory) {
+    public Inventory addItem(Inventory inventory) {    
         return inventoryRepository.save(inventory);
     }
 
