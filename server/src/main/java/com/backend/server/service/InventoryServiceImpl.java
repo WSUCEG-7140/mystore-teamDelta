@@ -13,30 +13,33 @@ public class InventoryServiceImpl implements InventoryService{
     @Autowired
     InventoryRepository inventoryRepository;
     @Override
-    public Inventory addItem(Inventory inventory) {    
+    public Inventory addItem(Inventory inventory) {
         return inventoryRepository.save(inventory);
     }
 
+    @Override
+    public List<Inventory>addAllItems(List<Inventory> inventories){
+        inventoryRepository.saveAll(inventories);
+        return inventories;
+    }
     @Override
     public Inventory updateItem(Inventory inventory) {
         return inventoryRepository.save(inventory);
     }
 
     @Override
-    public List<Inventory> getAllItems() {
-        return inventoryRepository.findAll();
+    public String deleteItem(int itemId) {
+        inventoryRepository.deleteById(itemId);
+        return "Item Deleted Successfully";
     }
-
-    @Override
-    public Inventory addItem(Inventory inventory) {
-        return inventoryRepository.save(inventory);
-    }
-   
 
     @Override
     public Optional<Inventory> getItemById(int itemId) {
         return inventoryRepository.findById(itemId);
     }
 
-   
+    @Override
+    public List<Inventory> getAllItems() {
+        return inventoryRepository.findAll();
+    }
 }
