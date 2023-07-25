@@ -13,6 +13,7 @@ public interface UserService {
     User updateUser(User user);
 
     String deleteUser(String mobileNumber);
+    public Optional<User> getAllUser();
 
 //    Inventory addItemToCart(Inventory inventory);
 }
