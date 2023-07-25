@@ -5,7 +5,9 @@ The My Store Application is an e-commerce platform that allows users to browse a
 ## Table of Contents
 
 Project Overview
+
 Architecture
+
 Frontend
 Backend
 Database
