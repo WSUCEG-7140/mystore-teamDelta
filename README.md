@@ -58,4 +58,4 @@ Before running the My Store Application, ensure you have the following prerequis
 This project is licensed under the MIT License.
 
 ## Issues
-1.    Login button misalligned
+1.    Login button misalligned [FIXED]
