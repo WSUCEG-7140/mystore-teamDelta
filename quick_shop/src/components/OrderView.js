@@ -1,15 +1,13 @@
 import React from 'react';
+import './OrderView.css'; // Import the CSS file
 
 const orders = [
-  { id: 1, product: 'Product A', price: 20.99, quantity: 2, date: '2023-07-04' },
-  { id: 2, product: 'Product B', price: 15.49, quantity: 3, date: '2023-07-03' },
-  { id: 3, product: 'Product C', price: 8.75, quantity: 1, date: '2023-07-02' },
-  // Add more orders as needed
+  // Your order data here
 ];
 
 function OrderView() {
   return (
-    <div>
+    <div className="container"> {/* Apply styles using className */}
       <h1>My Orders</h1>
       <ul>
         {orders.map((order) => (
