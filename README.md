@@ -23,7 +23,7 @@ Before running the My Store Application, ensure you have the following prerequis
 2.    Navigate to the project directory:
 -    cd my-store-application
      
-3.    Import the project into your preferred Java IDE.
+3.    Import the project into your preferred Java IDE like intle-j,vs-code,etc.
     
 4.    Set up the MySQL database with the provided SQL schema and populate it with sample data (if available).
     
