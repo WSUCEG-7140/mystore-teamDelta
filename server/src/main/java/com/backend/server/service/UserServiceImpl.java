@@ -41,7 +41,7 @@ public class UserServiceImpl implements UserService{
     }
 
    @Override
-   public Inventory addItemToCart(Inventory inventory) {
+   public Inventory addItemToCart(Inventory inventory,User user) {
        user.getCart().add(inventory);
         userRepository.save(user);
        return inventory;
