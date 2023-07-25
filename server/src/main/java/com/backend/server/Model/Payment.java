@@ -17,17 +17,12 @@ import java.util.List;
 @Builder
 @Document(collection = "user")
 //@JsonInclude(JsonInclude.Include.NON_NULL)
-public class User {
-    private String email;
-    private String firstName;
-    private String lastName;
+public class Payment{
+    
     @Id
-    private String mobileNumber;
-    private String password;
-    private List<Inventory> cart=new ArrayList<>();
-    private String addressLine1;
-    private String addressLine2;
-    private String zipCode;
-    private String role;
+    private String paymentId;
+    private String paymentMode;
+    private String amount;
+    private String Status;
 
 }
