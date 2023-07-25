@@ -16,5 +16,5 @@ public interface UserService {
     String deleteUser(String mobileNumber);
     public List<User> getAllUser();
 
-//    Inventory addItemToCart(Inventory inventory);
+   Inventory addItemToCart(Inventory inventory);
 }
