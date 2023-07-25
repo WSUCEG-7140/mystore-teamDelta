@@ -5,15 +5,11 @@ Welcome to My Store Application! This Java-based application is designed to prov
 
 ## Features
 
-Display of products with detailed information (name, price, description, etc.)
-Easy product search and filtering options
-Shopping cart functionality to add, remove, and update items
-Secure user authentication and registration
-Order placement and payment processing
-Order history and tracking
-Administrator functionalities for managing products, users, and orders
-Real-time stock management to keep track of product availability
-Responsive design for compatibility across various devices
+1.    Display of products with detailed information (name, price, description, etc.)
+2.    Easy product search and filtering options
+3.    Shopping cart functionality to add, remove, and update items
+4.    Secure user authentication and registration
+5.    Administrator functionalities for managing products, users, and orders
 
 ## Prerequisites
 Before running the My Store Application, ensure you have the following prerequisites installed on your system:
@@ -34,7 +30,7 @@ Before running the My Store Application, ensure you have the following prerequis
 5.    Configure the database connection in the application. Locate the application.properties file and update the following:
 -    spring.datasource.url=jdbc:mysql://your_database_host:your_database_port/your_database_name
 -    spring.datasource.username=your_database_username
--       ing.datasource.password=your_database_password
+-     ing.datasource.password=your_database_password
     
 6.    Build the application using your IDE or Gradle:
 -    ./gradlew build
