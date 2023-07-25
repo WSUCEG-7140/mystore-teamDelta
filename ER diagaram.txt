@@ -1,0 +1,48 @@
+Mystore Application:
+
+Below is an Entity-Relationship (ER) diagram for the MyStore application, representing the entities: User, Products, Order, Order Items, Transaction, and Cart.
+
+
+  +----------------+        +----------------+        +--------------+
+  |     User       |        |    Products    |        |    Order     |
+  +----------------+        +----------------+        +--------------+
+  | user_id (PK)   |        | product_id (PK)|        | order_id (PK)|
+  | username       |        | name           |        | order_date   |
+  | email          |        | price          |        | total_amount |
+  | password       |        | description    |        | status       |
+  | created_at     |        | stock_quantity |        | user_id (FK) |
+  +----------------+        +----------------+        +--------------+
+        |                          |                          |
+        |                          |                          |
+        |                          |                          |
+  +----------------+        +------------------+       +--------------+
+  |     Cart       |        |   Order Items   |       |  Transaction |
+  +----------------+        +------------------+       +--------------+
+  | cart_id (PK)   |        | order_item_id (PK)|      | transaction_id(PK) |
+  | user_id (FK)   |        | order_id (FK)    |      | order_id (FK)      |
+  | created_at     |        | product_id (FK)  |      | payment_date       |
+  +----------------+        | quantity         |      | payment_status     |
+                             | price_per_unit   |      +-------------------+
+                             +------------------+
+
+Explanation of Entities:
+
+User: Represents the users of the MyStore application. It stores user-related information such as user_id, username, email, password, and created_at (timestamp for user registration).
+
+Products: Represents the available products in the store. Each product has a unique product_id, name, price, description, and stock_quantity (quantity of the product in stock).
+
+Order: Stores information about customer orders. Each order has a unique order_id, order_date (timestamp for order placement), total_amount (total cost of the order), status (e.g., pending, completed), and a foreign key (user_id) referencing the User entity to establish the relationship with the customer who placed the order.
+
+Cart: Represents the shopping cart for each user. It stores cart-related information like cart_id, created_at (timestamp for cart creation), and a foreign key (user_id) referencing the User entity to link the cart to the user.
+
+Order Items: Represents the items included in each order. It acts as an intermediary table between Order and Products. Each order item has a unique order_item_id, a foreign key (order_id) referencing the Order entity to associate the item with the order, and a foreign key (product_id) referencing the Products entity to link the product in the order.
+
+Transaction: Stores information about payment transactions for orders. Each transaction has a unique transaction_id, a foreign key (order_id) referencing the Order entity to associate the transaction with the order, payment_date (timestamp for payment), and payment_status (e.g., successful, pending).
+
+The ER diagram shows the relationships between the entities:
+
+A user can have multiple orders, represented by the one-to-many relationship between User and Order.
+Each order can have multiple order items (products), represented by the one-to-many relationship between Order and Order Items.
+Each order can have one transaction, represented by the one-to-one relationship between Order and Transaction.
+Each user can have one shopping cart, represented by the one-to-one relationship between User and Cart.
+These relationships facilitate the connections between different entities and reflect the functionalities of the MyStore application.
