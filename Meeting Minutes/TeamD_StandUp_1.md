@@ -29,6 +29,21 @@ I am working on analysing the requirements for shoping cart and labeling them. o
 Krishnakishore Gadiyamula: 
 I am working on finilizing the design cart after that i will start working on creating api endpoints for login page.
 
+## Decisions Made:
+The following decisions are made during meeting:
+
+Niharika poreddy is assigned to work on issue#6, to setup database and create required tables and insert dummy data  into tables.
+
+Alekhya is assigned to start work on creating registration page for user in UI.
+
+yatasrivaishnavi is assigned to work on automation testing tool for front end so that testing part will be covered.
+
+karthikDyava is assigned to start installing applications and work on creating API endpoints for searching products.
+
+Chitrabhanu-ponna is assigned to focus on API documentation for spring boot API's.
+
+KrishnaKishore is assigned to start creating API endpoints for login page.
+
 ## Additional Notes:
 Team will pick tasks as per priority assigned.
 
