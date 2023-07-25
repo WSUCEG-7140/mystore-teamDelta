@@ -2,6 +2,10 @@
 
 The My Store Application is an e-commerce platform that allows users to browse and purchase products online. This design document outlines the architecture, components, and functionality of the application. The project will be hosted on GitHub for collaborative development and version control.
 
+### ER diagarams are in below path:
+
+https://github.com/WSUCEG-7140/mystore-teamDelta/blob/main/ER%20diagaram.txt
+
 ## Table of Contents
 
 1.	Project Overview
