@@ -56,3 +56,6 @@ Before running the My Store Application, ensure you have the following prerequis
 
 ## License
 This project is licensed under the MIT License.
+
+## Issues
+No current issues
