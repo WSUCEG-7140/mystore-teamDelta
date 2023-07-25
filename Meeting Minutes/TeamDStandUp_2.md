@@ -29,6 +29,21 @@ I am done with intial analysing of requirements for shoping cart and labeled the
 Krishnakishore Gadiyamula: 
 I am done with finilizing the design cart and started working on creating api endpoints for login page.
 
+## Decisions Made:
+The following decisions are made in the standup:
+
+Niharika poreddy need to work on creating rest of the tables paymentdetails and orders in backend and need to develop an ER diagram and need to start creating registration in backend for customer details.
+
+Alekhya need to complete the first task as she facing issue here niharika is assisting her in resolving issue for creating API endpoints for registration page.
+
+yatasrivaishnavi need to complete an automation testing configuration for now the task is on hold and she is assigned to work on adding backend repo and user login API.
+
+KarthikDyava is done with initiall setup and he is assigned to start work on API endpoints for searching products. CHitrabhanu is assisting him in solving issues while implementing code.
+
+Chitrabhanu is assigned to work on gathering requirements for the application and lable them.
+
+Krishnakishore is assigned to work on creating API endpoints for login page for the user to login.
+
 ## Additional Notes:
 Team will pick tasks as per priority assigned.
 
