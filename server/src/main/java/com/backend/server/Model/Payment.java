@@ -15,7 +15,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Document(collection = "user")
+@Document(collection = "payment")
 //@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Payment{
     
