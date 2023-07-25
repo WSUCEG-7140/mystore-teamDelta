@@ -1,8 +1,6 @@
 # Meeting Minutes 1
 
- Location : Webex Meeting
- Date: 20 June 2023
- Time: 12pm
+ Location : Webex Meeting, Date: 20 June 2023, Time: 12pm
 
 ## Attendees/Present:
 Niharika poreddy, Alekhya-WSU, yatasrivaishnavi, KarthikDyava, Chitrabhanu-ponna, Krishnakishore Gadiyamula.
