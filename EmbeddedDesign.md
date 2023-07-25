@@ -6,18 +6,9 @@ The My Store Application is an e-commerce platform that allows users to browse a
 
 1.	Project Overview
 2.	Architecture
-3.	Frontend
-4.	Backend
-5.	Database
-6.	Technologies Used
-7.	Features
-8.	User Interface
-9.	API Endpoints
-10.	Database Schema
-11.	Deployment
-12.	Testing
-13.	Contributing
-14.	License
+3.	User Interface
+4.	API Endpoints
+5.	Database Schema
 
 ### 1. Project Overview
 The My Store Application aims to provide an intuitive and enjoyable shopping experience for users. It will offer a wide range of products, secure user authentication, shopping cart functionality, and order processing. Additionally, an admin interface will be available to manage products, users, and orders.
@@ -59,27 +50,10 @@ Key Responsibilities:
 3.	Validate user input before passing it to the Model for processing.
 4.	Update the View with the latest data from the Model after each action.
 
-### 3. Technologies Used
-1.	Frontend: HTML, CSS, JavaScript, React
-2.	Backend: Java, Spring Boot
-3.	Database: MySQL
-4.	Version Control: Git, GitHub
-
-### 4. Features
-The key features of the My Store Application include:
-
-1.	User Registration and Authentication
-2.	Product Catalog with Detailed Information
-3.	Product Search and Filtering
-4.	Shopping Cart Management
-5.	Order Placement and Payment Processing
-6.	Order History and Tracking
-7.	Admin Interface for Product and User Management
-
-### 5. User Interface
+### 3. User Interface
 The user interface will be designed with a clean and modern look, featuring an intuitive navigation system. Users will be able to access products, add items to their cart, and complete purchases with ease.
 
-### 6. API Endpoints
+### 4. API Endpoints
 The backend will expose the following API endpoints:
 
 /api/auth/signup - User registration
@@ -102,7 +76,7 @@ The backend will expose the following API endpoints:
 
 /api/orders/place - Place a new order
 
-### 7. Database Schema
+### 5. Database Schema
 The MySQL database will consist of the following tables:
 
 1.	users: stores user information (id, username, email, password, etc.)
@@ -111,16 +85,5 @@ The MySQL database will consist of the following tables:
 4.	orders: stores order details (id, user_id, total_amount, order_date, etc.)
 5.	order_items: stores individual items within an order (id, order_id, product_id, quantity, etc.)
 
-### 8. Deployment
-The application will be deployed on a cloud platform like Heroku, and continuous integration will be set up using GitHub Actions to automate the deployment process.
-
-### 9. Testing
-The application will undergo comprehensive testing, including unit testing and integration testing, to ensure its functionality, security, and reliability.
-
-### 10. Contributing
-We welcome contributions from the community. Developers can fork the repository, make changes, and submit pull requests for review.
-
-### 11. License
-The project will be licensed under the MIT License, granting users the freedom to use, modify, and distribute the software.
 
 This design document outlines the roadmap for developing the My Store Application on GitHub. It provides an overview of the architecture, technologies used, features, and deployment strategy. By following this document, the development team can collaborate efficiently and build an exceptional e-commerce platform for users to enjoy.
