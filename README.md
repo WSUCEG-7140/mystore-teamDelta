@@ -50,9 +50,9 @@ Before running the My Store Application, ensure you have the following prerequis
 
 ## Technologies used:
 
-Frontend: HTML, CSS, JavaScript, React
-Backend: Java, Spring Boot
-Database: MySQL
+1.    Frontend: HTML, CSS, JavaScript, React
+2.    Backend: Java, Spring Boot
+3.    Database: MySQL
 
 ## License
 This project is licensed under the MIT License.
