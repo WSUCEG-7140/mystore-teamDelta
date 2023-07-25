@@ -40,11 +40,12 @@ public class UserServiceImpl implements UserService{
         return("UserDeleted Successfully");
     }
 
-//    @Override
-//    public Inventory addItemToCart(Inventory inventory) {
-//        user.getCart().add(inventory);
-//        return inventory;
-//    }
+   @Override
+   public Inventory addItemToCart(Inventory inventory) {
+       user.getCart().add(inventory);
+        userRepository.save(user);
+       return inventory;
+   }
 
     @Override
     public List<User> getAllUser() {
