@@ -25,7 +25,9 @@ public class User {
     private String mobileNumber;
     private String password;
     private List<Inventory> cart=new ArrayList<>();
-    private String Address;
+    private String addressLine1;
+    private String addressLine2;
+    private String zipCode;
     private String role;
 
 }
