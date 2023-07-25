@@ -17,7 +17,7 @@ import java.util.List;
 @Builder
 @Document(collection = "user")
 //@JsonInclude(JsonInclude.Include.NON_NULL)
-public class Payment.java {
+public class Payment{
     
     @Id
     private String paymentId;
