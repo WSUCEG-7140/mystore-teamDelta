@@ -29,6 +29,15 @@ I am done with Creating api endpoints to add products in backend. I started work
 Krishnakishore Gadiyamula: 
 I am done with working on adding navbar in all available pages. Found an issue with navbar functionality and working on resolving it.
 
+## Decisions Made:
+The below decisions are made in the standup:
+
+The team is focused on tasks and completing them with no backlogs, one story is backlog from sprint1 that to implement automated testing, Niharika Alekhya and yatasrivaishnavi is working on implementing jest for automated testing in fron end.
+
+KarthikDyava was facing issue at authorizing token rest api, due to which the user credentials is not validating correctly at the user login page, Chitrabhanu and KarthikDyava is working on it.
+
+Krishnakishore is assigned to work on implementing j units for backend automation testing.
+
 ## Additional Notes:
 Team will pick tasks as per priority assigned.
 
