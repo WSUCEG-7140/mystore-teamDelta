@@ -45,4 +45,9 @@ public class UserServiceImpl implements UserService{
 //        return inventory;
 //    }
 
+    @Override
+    public Optional<User> getAllUser() {
+        return(userRepository.findAll());
+    }
+
 }
