@@ -2,6 +2,7 @@ package com.backend.server; // Package declaration for the "server" package unde
 
 import org.springframework.boot.SpringApplication; // Import Spring Boot class for SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication; // Import Spring Boot annotation for auto-configuration
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @class ServerApplication
@@ -11,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication; // Import S
  */
 
 @SpringBootApplication
+@EnableSwagger2
 public class ServerApplication {
 
      	/**
