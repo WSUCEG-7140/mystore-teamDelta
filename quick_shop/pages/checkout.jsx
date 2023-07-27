@@ -38,6 +38,7 @@ function sayHello() {
 }
 
 // Checkout component
+//see [Issue#49] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/49)
 export const Checkout = (props)=> {
 
   // Accessing the current location and navigation from 'react-router-dom'
