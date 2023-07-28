@@ -13,9 +13,10 @@ import java.util.Optional; // Import Java utility class for Optional
 
 /**
  * @class CurrentUserDetails
- * @brief This class provides methods for userdetails hashing.
+ * @brief the class CurrentUserDetails serves as an implementation of the Spring Security UserDetailsService interface.
  *
- * The Authorizer class Indicates that this class is a Spring service with the bean name "userDetailsService"
+ * The UserDetailsService interface provides a single method, loadUserByUsername, 
+ * that must be implemented to load user details based on the provided username.
  */
 
 @Service("userDetailsService") 
@@ -32,7 +33,7 @@ public class CurrentUserDetails implements UserDetailsService {
      * @param username         The name of the algorithm that MessageDigest will use
      *                          to compute hashes
      * See [Issue57] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/57)
-     * Create a new CurrentUser object with the found User object and return it as UserDetails
+     * @returns UserDetails by Creating a new CurrentUser object with the found User object.
      */
     
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {

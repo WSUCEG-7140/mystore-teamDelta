@@ -1,9 +1,9 @@
 package com.backend.server; // Package declaration for the "server" package under "com.backend"
 
+
 import org.springframework.boot.SpringApplication; // Import Spring Boot class for SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication; // Import Spring Boot annotation for auto-configuration
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
-
 /**
  * @class ServerApplication
  * @brief This Main class that serves as the entry point for the Spring Boot application.

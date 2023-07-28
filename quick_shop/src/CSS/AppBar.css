@@ -1,16 +1,28 @@
+/* Styles for the AppBarBox element */
+/* See [Issue36] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/36) */
 .AppBarBox{
+    /* Width and height will adjust automatically based on content */
     width: auto;
     height: auto;
+    /* Adds 1 pixel of padding around the content */
     padding: 1px;
+    /* Sets the background color to a dark red shade (rgb(34, 13, 13)) */
     background-color: rgb(34, 13, 13);
+    /* Uses flexbox to arrange the children elements horizontally (in a row) */
     display: flex;
     flex-direction: row;
+    /* Aligns the children elements vertically at the center of the container */
     align-items: center;
+    /* Aligns the children elements horizontally at the center of the container */
     justify-content: center;
 }
 
+/* Styles for elements with the class 'logoStyle' */
+/* See [Issue36] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/36) */
 .logoStyle{
+    /* Sets the width of elements with this class to 240 pixels */
     width:  240px;
+    /* Sets the height of elements with this class to 120 pixels */
     height: 120px;
 }
 

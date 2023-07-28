@@ -1,63 +1,57 @@
 # Introduction
 
-The My Store Application is an e-commerce platform that allows users to browse and purchase products online. This design document outlines the architecture, components, and functionality of the application. The project will be hosted on GitHub for collaborative development and version control.
+The My Store Application is an e-commerce platform that allows users to browse and purchase products online. This design document outlines the links to the external documents, Architecture, and ApI Endpoints of the application. The project will be hosted on GitHub for collaborative development and version control.
 
 ### ER diagarams are in below path:
 
 https://github.com/WSUCEG-7140/mystore-teamDelta/blob/main/ER%20diagaram.txt
 
-## Table of Contents
+### Design
 
-1.	Project Overview
-2.	Architecture
-3.	User Interface
-4.	API Endpoints
-5.	Database Schema
+This design documents illustrate how the Team-Delta Students implemented the Mystore application by following @ref Requirements.
 
-### 1. Project Overview
-The My Store Application aims to provide an intuitive and enjoyable shopping experience for users. It will offer a wide range of products, secure user authentication, shopping cart functionality, and order processing. Additionally, an admin interface will be available to manage products, users, and orders.
+@section Project Project Overview
 
-### 2. Architecture
-The application will follow a three-tier architecture:
+Mystore Application developed using HTML, CSS, Java and MySQL. This application helps user to register, login, search products and place orders.
 
-MVC Design for MyStore Application
-#### 1. Model
+## Features
+1. Register: Create a new account by providing your username, password, mobilenumber and email.
+2. Login: Login to your account using your credentials. If the credentials are not match it will show the error message.
+3. Inventory: Monitor the stock levels of the store by tracking both incoming orders and available products.
+4. Orders: Capture and oversee customer purchase requests, encompassing order specifics, quantities, and costs.stores order details (id, user_id, total_amount, order_date, etc.).
+5. Products: Manage product details, including product names, prices, and stock availability.stores product details (id, name, price, description, etc.).
+6. users: stores user information (id, username, email, password, etc.)
+7. cart_items: stores items added to the user's shopping cart (id, user_id, product_id, quantity, etc.)
+8. order_items: stores individual items within an order (id, order_id, product_id, quantity, etc.)
 
-The Model component in MyStore is responsible for managing the application's data and business logic. It interacts with the database to fetch and store information about products, users, orders, and other relevant entities.
+@section ModelViewController Model View Controller
 
-Key Responsibilities:
+This design applies the [Model View Controller](https://en.wikipedia.org/wiki/Model–view–controller) Design Pattern.
 
-1.	Define data structures for products, users, and orders.
-2.	Implement data validation and business logic to ensure data integrity.
-3.	Perform CRUD operations (Create, Read, Update, Delete) on the database.
-4.	Handle stock management to track product availability.
+## Model
 
-#### 2. View
+The Model consists of the following components:
 
-The View component is responsible for presenting the user interface to customers and store administrators. It displays the product catalog, shopping cart, order history, login/register forms, and other necessary screens.
+@anchor R30_0 https://github.com/WSUCEG-7140/mystore-teamDelta/tree/main/server/src/main/java/com/backend/server/Model/Payment.java>
 
-Key Responsibilities:
+@anchor R6_0 https://github.com/WSUCEG-7140/mystore-teamDelta/tree/main/server/src/main/java/com/backend/server/Model/User.java
 
-1.	Render HTML templates and user interfaces using HTML, CSS, and JavaScript.
-2.	Display product information, prices, and images in an appealing manner.
-3.	Enable user interaction with forms and buttons for actions like adding to cart and placing orders.
-4.	Provide a responsive design to ensure compatibility with different devices.
+@anchor R11_0 https:https://github.com/WSUCEG-7140/mystore-teamDelta/tree/main/server/src/main/java/com/backend/server/Model/Inventory.java
 
-#### 3. Controller
 
-The Controller component acts as an intermediary between the Model and View components. It processes user input from the View, updates the Model accordingly, and updates the View with the latest data.
+## View
+<br>
+<br>
 
-Key Responsibilities:
+## Controller
 
-1.	Handle incoming HTTP requests from the View and invoke the appropriate Model methods.
-2.	Manage user sessions and authentication to restrict access to certain functionalities.
-3.	Validate user input before passing it to the Model for processing.
-4.	Update the View with the latest data from the Model after each action.
+The Controller consists of the following component:
 
-### 3. User Interface
-The user interface will be designed with a clean and modern look, featuring an intuitive navigation system. Users will be able to access products, add items to their cart, and complete purchases with ease.
+@anchor R11_0 https:https://github.com/WSUCEG-7140/mystore-teamDelta/tree/main/server/src/main/java/com/backend/server/controller/InventoryApis.java
 
-### 4. API Endpoints
+@anchor R12_0 https:https://github.com/WSUCEG-7140/mystore-teamDelta/tree/main/server/src/main/java/com/backend/server/controller/UserApis.java
+
+### API Endpoints
 The backend will expose the following API endpoints:
 
 /api/auth/signup - User registration
@@ -80,14 +74,3 @@ The backend will expose the following API endpoints:
 
 /api/orders/place - Place a new order
 
-### 5. Database Schema
-The MySQL database will consist of the following tables:
-
-1.	users: stores user information (id, username, email, password, etc.)
-2.	products: stores product details (id, name, price, description, etc.)
-3.	cart_items: stores items added to the user's shopping cart (id, user_id, product_id, quantity, etc.)
-4.	orders: stores order details (id, user_id, total_amount, order_date, etc.)
-5.	order_items: stores individual items within an order (id, order_id, product_id, quantity, etc.)
-
-
-This design document outlines the roadmap for developing the My Store Application on GitHub. It provides an overview of the architecture, technologies used, features, and deployment strategy. By following this document, the development team can collaborate efficiently and build an exceptional e-commerce platform for users to enjoy.

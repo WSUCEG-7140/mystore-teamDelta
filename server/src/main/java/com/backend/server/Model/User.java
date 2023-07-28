@@ -15,9 +15,18 @@ import java.util.List; // Import Java utility class for List
 @AllArgsConstructor // Lombok annotation to generate all-argument constructor
 @NoArgsConstructor // Lombok annotation to generate no-argument constructor
 @Builder // Lombok annotation to generate builder pattern
-@Document(collection = "user") / MongoDB document mapping for the "user" collection
+@Document(collection = "user") // MongoDB document mapping for the "user" collection
 //@JsonInclude(JsonInclude.Include.NON_NULL)
-// See [Issue6] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/6)
+    
+/**
+ * @class User
+ * @brief This class represents an User with its email, firstname, lastname, mobilenumber, password, address, zipcode and role.
+ *
+ * The User class encapsulates information about an User. Objects of this class can be used to
+ * store and retrieve User-related information in the Mystore application.
+ * See [Issue6] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/6).
+ */
+    
 public class User {
     private String email; // Email address of the user
     private String firstName; // First name of the user
