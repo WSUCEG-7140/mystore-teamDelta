@@ -30,6 +30,7 @@ public class CurrentUser implements UserDetails {
      * <p>
      * The CurrentUser constructor creates a new CurrentUser object from an Optional<User> object
      * (cannot build an CurrentUser object with a non-parameterized constructor)
+     *@param user is used to reference the User object representing the details of the current user
      * See [Issue36] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/36)
      */
     
