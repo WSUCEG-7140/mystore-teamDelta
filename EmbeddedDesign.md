@@ -33,7 +33,9 @@ This design applies the [Model View Controller](https://en.wikipedia.org/wiki/Mo
 The Model consists of the following components:
 
 @anchor R30_0 https://github.com/WSUCEG-7140/mystore-teamDelta/tree/main/server/src/main/java/com/backend/server/Model/Payment.java>
+
 @anchor R6_0 https://github.com/WSUCEG-7140/mystore-teamDelta/tree/main/server/src/main/java/com/backend/server/Model/User.java
+
 @anchor R11_0 https:https://github.com/WSUCEG-7140/mystore-teamDelta/tree/main/server/src/main/java/com/backend/server/Model/Inventory.java
 
 
@@ -46,6 +48,7 @@ The Model consists of the following components:
 The Controller consists of the following component:
 
 @anchor R11_0 https:https://github.com/WSUCEG-7140/mystore-teamDelta/tree/main/server/src/main/java/com/backend/server/controller/InventoryApis.java
+
 @anchor R12_0 https:https://github.com/WSUCEG-7140/mystore-teamDelta/tree/main/server/src/main/java/com/backend/server/controller/UserApis.java
 
 ### API Endpoints
