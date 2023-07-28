@@ -1,25 +1,24 @@
 package com.backend.server.Model;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import com.fasterxml.jackson.annotation.JsonInclude; // Import Jackson annotation for JSON serialization options
+import lombok.AllArgsConstructor; // Import Lombok annotation for generating all-argument constructor
+import lombok.Builder; // Import Lombok annotation for generating builder pattern
+import lombok.Data; // Import Lombok annotation for generating getters, setters, equals, hashCode, and toString methods
+import lombok.NoArgsConstructor; // Import Lombok annotation for generating no-argument constructor
+import org.springframework.data.annotation.Id; // Import Spring Data annotation for marking the ID field
+import org.springframework.data.mongodb.core.mapping.Document; // Import Spring Data annotation for MongoDB document mapping
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-@Builder
-@Document(collection = "inventory")
-@JsonInclude(JsonInclude.Include.NON_NULL)
+@Data // Lombok annotation to generate getters, setters, equals, hashCode, and toString methods
+@AllArgsConstructor // Lombok annotation to generate all-argument constructor
+@NoArgsConstructor // Lombok annotation to generate no-argument constructor
+@Builder // Lombok annotation to generate builder pattern
+@Document(collection = "inventory") // MongoDB document mapping for the "inventory" collection
+@JsonInclude(JsonInclude.Include.NON_NULL) // Jackson annotation to exclude properties with null values from JSON serialization
 public class Inventory {
-    @Id
-    private int itemId;
-    private String itemName;
-    private String category;
-    private int cost;
-    private String Supplier;
-
+    @Id // Marks the field below as the identifier field for MongoDB
+    private int itemId; // Unique identifier for the inventory item
+    private String itemName; // Name of the inventory item
+    private String category; // Category of the inventory item
+    private int cost; // Cost of the inventory item
+    private String Supplier; // Supplier of the inventory item
 }
