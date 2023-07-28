@@ -23,11 +23,29 @@ import java.util.List; // Import Java utility class for List
 
 @Configuration // Indicates that this class contains Spring configuration
 @EnableWebSecurity // Enable Spring Security for web applications
-// See [Issue6] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/6) 
+ 
+/**
+ * @class AppSecurityConfig
+ * @brief This is the configuration class responsible for defining security-related configurations for the Spring application.
+ *
+ * @Autowired Enables automatic injection of a UserDetailsService bean
+ * @Bean Define a bean for AuthenticationProvider
+ * See [Issue6] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/6) 
+ */
+    
 public class AppSecurityConfig {
-    @Autowired // Enables automatic injection of a UserDetailsService bean
+    @Autowired 
     UserDetailsService userDetailsService;
-    @Bean // Define a bean for AuthenticationProvider
+    @Bean 
+
+    /**
+     * @brief This is a method with a return type of AuthenticationProvider.
+     * <p>
+     * The method returns the configured DaoAuthenticationProvider instance as the AuthenticationProvider. 
+     * The returned AuthenticationProvider will be used by Spring Security to authenticate users when they log in.
+     * See [Issue6] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/6)
+     */
+    
     public AuthenticationProvider authProvider(){
         DaoAuthenticationProvider provider=new DaoAuthenticationProvider();
         provider.setUserDetailsService(userDetailsService); // Set the custom UserDetailsService
@@ -35,6 +53,16 @@ public class AppSecurityConfig {
         return provider;
     }
 
+    /**
+     * @brief The method configures the security rules for a Spring Security application.
+     * <p>
+     * These methods are used to chain the authorization configuration. 
+     * @param http can access and configure the HttpSecurity object provided by Spring Security to customize the security settings for the application.
+     * @returns http.csrf().disable().authorizeHttpRequests().anyRequest().permitAll().and().build();: 
+     * This line sets up the security rules using the HttpSecurity API.
+     * See [Issue6] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/6)
+     */
+    
     @Bean // Define a bean for SecurityFilterChain
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http.csrf().disable().authorizeHttpRequests().anyRequest().permitAll().and().build();
