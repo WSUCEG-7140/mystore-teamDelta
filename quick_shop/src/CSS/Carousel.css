@@ -1,19 +1,26 @@
+/* Set the styles for the container of the carousel background */
+
 .carouselBackgroungContainer{
-    display: flex;
-    flex-direction: row;
+    display: flex; /* Use flexbox to enable flexible layout and positioning of child elements */
+    flex-direction: row; /* Arrange child elements in a row direction */
     /* justify-content: center; */   
-    background-color: rgb(112,68,52);
-    align-items: center;
-    height: 450px;
-    background-image: url("./../logos/carousel/carousel.jpg");
+    background-color: rgb(112,68,52); /* Set the background color to a dark brownish tone using RGB values */
+    align-items: center; /* Vertically center the child elements within the container */
+    height: 450px; /* Set the height of the container to be 450 pixels */
+    background-image: url("./../logos/carousel/carousel.jpg"); /* Set the background image for the container using the specified URL */
+    /* 
+       Set the size of the background image to be 120em in width and 50em in height.
+       (Note: 'em' is a relative unit based on the font size of the element.)
+    */
     background-size: 120em 50em ;
 }
 
+/* Set the styles for the container of the offers */
 .OffersContainer{
-    color: white;
-    font-family: sans-serif;
-    font-weight: bolder;
-    margin-left: 2em;
-    font-size: 3em;
-    width: 20em;
+    color: white; /* Set the text color to white */
+    font-family: sans-serif; /* Set the font family to a sans-serif font */
+    font-weight: bolder; /* Set the font weight to be bolder than the default */
+    margin-left: 2em; /* Set the left margin of the container to be 2em */
+    font-size: 3em; /* Set the font size to be 3em */
+    width: 20em; /* Set the width of the container to be 20em */
 }
