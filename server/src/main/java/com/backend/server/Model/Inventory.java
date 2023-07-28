@@ -20,7 +20,7 @@ import org.springframework.data.mongodb.core.mapping.Document; // Import Spring 
  * @brief This class represents an Inventory with its ID ,name, category, cost and supplier.
  *
  * The Inventory class encapsulates information about an Inventory, including its unique
- * Inventory code (itemID) and its name, category, cost, supplier. Objects of this class can be used to
+ * inventory code (itemID) and its name, category, cost, supplier. Objects of this class can be used to
  * store and retrieve Inventory-related information in the Mystore application.
  */
     
