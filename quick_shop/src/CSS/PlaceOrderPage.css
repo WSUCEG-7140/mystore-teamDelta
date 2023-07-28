@@ -1,43 +1,52 @@
 /* PlaceOrderPage.css */
+/* Set the styles for the place order container */
+
 .place-order-container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 600px; /* Set the maximum width of the container to be 600 pixels */
+  margin: 0 auto; /* Center the container horizontally by setting auto margins */
+  padding: 20px; /* Add padding inside the container to create space between content and border */
 }
 
+/* Set the styles for the h1 element */
 h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 24px; /* Set the font size of the heading to 24 pixels */
+  margin-bottom: 20px; /* Add margin at the bottom of the heading to create space below it */
 }
 
+/* Set the styles for elements with class "order-summary" and "shipping-details" */
 .order-summary,
 .shipping-details {
-  margin-bottom: 20px;
+  margin-bottom: 20px; /* Add margin at the bottom of the elements to create space below them */
 }
 
+/* Set the styles for h2 elements within "order-summary" and "shipping-details" */
 .order-summary h2,
 .shipping-details h2 {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 18px; /* Set the font size of the h2 headings to 18 pixels */
+  margin-bottom: 10px; /* Add margin at the bottom of the h2 headings to create space below them */
 }
 
+/* Set the styles for ul elements (unordered lists) */
 ul {
-  list-style: none;
+  list-style: none; /* Remove the default list-style (bullets) from the unordered lists */
+  /* Remove padding and margin from the unordered lists to eliminate spacing */
   padding: 0;
   margin: 0;
 }
 
+/* Set the styles for li elements (list items) */
 li {
-  margin-bottom: 5px;
+  margin-bottom: 5px; /* Add margin at the bottom of the list items to create space between them */
 }
 
+/* Set the styles for the button element */
 button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px;
-  border-radius: 4px;
-  cursor: pointer;
+  background-color: #007bff; /* Set the background color of the button to a blue color (#007bff) */
+  color: #fff; /* Set the text color of the button to white */
+  border: none; /* Remove the default button border */
+  padding: 10px; /* Add padding inside the button to create space between content and border */
+  border-radius: 4px; /* Apply a border radius of 4 pixels to create rounded corners for the button */
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
 }
 
 /* Add more styles as needed */

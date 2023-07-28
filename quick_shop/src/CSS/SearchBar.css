@@ -1,29 +1,37 @@
+/* Set the styles for the search box container */
+
 .SearchBoxContainer{
-    width: auto;
+    width: auto; /* Set the width of the container to adjust automatically based on its content */
     /* background-color: red; */
-    padding: 10px;
-    margin-left: 20px;
+    padding: 10px; /* Add padding inside the container to create space between content and borders */
+    margin-left: 20px; /* Set the left margin of the container to be 20 pixels */
+    /* 
+     Use flexbox to enable flexible layout and positioning of child elements.
+     Arrange child elements in a row direction.
+    */
     display: flex;
     flex-direction: row;
 }
 
+/* Set the styles for the search box input */
 .SearchBoxInput{
-    background-color: rgb(112,68,52);
-    border-color: rgb(112,68,52);
-    width: auto;
-    color: white;
-    font-family: sans-serif;
-    font-weight: bolder;
-    border-radius: 5px;
+    background-color: rgb(112,68,52); /* Set the background color of the input to a dark brownish tone using RGB values */
+    border-color: rgb(112,68,52); /* Set the border color of the input to match the background color (same as above) */
+    width: auto; /* Set the width of the input to adjust automatically based on its content */
+    color: white; /* Set the text color to white */
+    font-family: sans-serif; /* Set the font family to a sans-serif font */
+    font-weight: bolder; /* Set the font weight to bolder than the default */
+    border-radius: 5px; /* Apply a border radius of 5 pixels to create rounded corners for the input */
 }
+/* Set the styles for the search button */
 .searchButton{
     
-    background-color: rgb(112,68,52);
-    border-radius: 5px; 
-    border-color: rgb(112,68,52); 
-    color: white;
-    font-family: sans-serif;
-    font-weight: bolder;
-    margin-left: 5px;
-    padding: 9px;
+    background-color: rgb(112,68,52); /* Set the background color of the button to the same dark brownish tone as the input */
+    border-radius: 5px; /* Apply a border radius of 5 pixels to create rounded corners for the button */
+    border-color: rgb(112,68,52); /* Set the border color of the button to the same dark brownish tone as the input */
+    color: white; /* Set the text color to white */
+    font-family: sans-serif; /* Set the font family to a sans-serif font */
+    font-weight: bolder; /* Set the font weight to bolder than the default */
+    margin-left: 5px; /* Set the left margin of the button to be 5 pixels */
+    padding: 9px; /* Add padding inside the button to create space between content and borders */
 }

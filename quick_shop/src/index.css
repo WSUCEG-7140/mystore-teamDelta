@@ -1,5 +1,7 @@
+/* Set the styles for the body element */
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  margin: 0; /* Remove any default margin that may be applied by the browser */
+  padding: 0; /* Remove any default padding that may be applied by the browser */
+  font-family: sans-serif; /* Set the font family to a sans-serif font for the entire body content */
 }

@@ -1,29 +1,35 @@
 /* OrderView.css */
+/* Set the styles for the container */
+
 .container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 600px; /* Set the maximum width of the container to be 600 pixels */
+  margin: 0 auto; /* Center the container horizontally by setting auto margins */
+  padding: 20px; /* Add padding inside the container to create space between content and container edges */
 }
 
+/* Set the styles for the h1 element */
 h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 24px; /* Set the font size of the heading to 24 pixels */
+  margin-bottom: 20px; /* Add margin at the bottom of the heading to create space below it */
 }
 
+/* Set the styles for the ul element (unordered list) */
 ul {
-  list-style: none;
-  padding: 0;
+  list-style: none; /* Remove the default list-style (bullets) from the unordered list */
+  padding: 0; /* Remove padding from the unordered list to reduce spacing */
 }
 
+/* Set the styles for the li elements (list items) */
 li {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 10px;
-  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Add a 1-pixel solid border with a light gray color (#ccc) to each list item */
+  border-radius: 4px; /* Apply a border radius of 4 pixels to create rounded corners for each list item */
+  padding: 10px; /* Add padding inside each list item to create space between content and borders */
+  margin-bottom: 10px; /* Add margin at the bottom of each list item to create space between them */
 }
 
+/* Set the styles for the p elements (paragraphs) */
 p {
-  margin: 5px 0;
+  margin: 5px 0; /* Add margin of 5 pixels on the top and bottom of each paragraph to create spacing */
 }
 
 /* Add more styles as needed */

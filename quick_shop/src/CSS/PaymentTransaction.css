@@ -1,48 +1,56 @@
 /* PaymentTransaction.css */
+/* Set the styles for the payment container */
+
 .payment-container {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  max-width: 400px; /* Set the maximum width of the container to be 400 pixels */
+  margin: 0 auto; /* Center the container horizontally by setting auto margins */
+  padding: 20px; /* Add padding inside the container to create space between content and border */
+  border: 1px solid #ccc; /* Add a 1-pixel solid border with a light gray color (#ccc) to the container */
+  border-radius: 4px; /* Apply a border radius of 4 pixels to create rounded corners for the container */
 }
 
+/* Set the styles for the h1 element */
 h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 24px; /* Set the font size of the heading to 24 pixels */
+  margin-bottom: 20px; /* Add margin at the bottom of the heading to create space below it */
 }
 
+/* Set the styles for the form element */
 form {
-  display: flex;
-  flex-direction: column;
+  display: flex; /* Use flexbox to enable flexible layout and positioning of child elements */
+  flex-direction: column; /* Arrange child elements in a column direction */
 }
 
+/* Set the styles for the label elements */
 label {
-  font-size: 16px;
-  margin-bottom: 5px;
+  font-size: 16px; /* Set the font size of the labels to 16 pixels */
+  margin-bottom: 5px; /* Add margin at the bottom of the labels to create space below them */
 }
 
+/* Set the styles for the input elements */
 input {
-  height: 30px;
-  font-size: 14px;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 10px;
+  height: 30px; /* Set the height of the input elements to 30 pixels */
+  font-size: 14px; /* Set the font size of the input text to 14 pixels */
+  padding: 5px; /* Add padding inside the input elements to create space between content and border */
+  border: 1px solid #ccc; /* Add a 1-pixel solid border with a light gray color (#ccc) to the input elements */
+  border-radius: 4px; /* Apply a border radius of 4 pixels to create rounded corners for the input elements */
+  margin-bottom: 10px; /* Add margin at the bottom of the input elements to create space below them */
 }
 
+/* Set the styles for the elements with class "expiry-cvv" */
 .expiry-cvv {
-  display: flex;
-  gap: 10px;
+  display: flex; /* Use flexbox to enable flexible layout and positioning of child elements */
+  gap: 10px; /* Add a gap of 10 pixels between the child elements within this container */
 }
 
+/* Set the styles for the button element */
 button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px;
-  border-radius: 4px;
-  cursor: pointer;
+  background-color: #007bff; /* Set the background color of the button to a blue color (#007bff) */
+  color: #fff; /* Set the text color of the button to white */
+  border: none; /* Remove the default button border */
+  padding: 10px; /* Add padding inside the button to create space between content and border */
+  border-radius: 4px; /* Apply a border radius of 4 pixels to create rounded corners for the button */
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
 }
 
 /* Add more styles as needed */

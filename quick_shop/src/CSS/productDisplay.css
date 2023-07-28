@@ -1,21 +1,34 @@
+/* Set the styles for the product display header container */
+
 .productDisplayHeaderContainer{
-    width: 100%;
-    color: rgb(112,68,52);
+    width: 100%; /* Set the width of the container to occupy 100% of its parent's width */
+    color: rgb(112,68,52); /* Set the text color to a dark brownish tone using RGB values */
+    /* 
+     Use flexbox to enable flexible layout and positioning of child elements.
+     Align child elements along the content axis (vertically) to the center.
+    */
     display: flex;
     align-content: center;
-    margin-top: 10px;
-    font-weight: bolder;
-    font-family: sans-serif;
+    margin-top: 10px; /* Add margin at the top of the container to create space above it */
+    font-weight: bolder; /* Set the font weight of the text to be bolder than the default */
+    font-family: sans-serif; /* Set the font family to a sans-serif font */
 }
+/* Set the styles for the product display container */
 .productDisplayContainer{
-    width:100%;
-    overflow: scroll;
+    width:100%; /* Set the width of the container to occupy 100% of its parent's width */
+    overflow: scroll; /* Enable horizontal scrolling for content that overflows the container */
+    /* 
+     Use flexbox to enable flexible layout and positioning of child elements.
+     Arrange child elements in a row direction.
+     Align child elements along the cross axis (vertically) to the center.
+    */
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 20px; /* Add padding at the bottom of the container to create space below it */
 }
+/* Set the styles for elements with class "h4style" */
 .h4style{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 20px; /* Set the left margin of the elements to create space on the left side */
+    margin-right: 20px; /* Set the right margin of the elements to create space on the right side */
 }
