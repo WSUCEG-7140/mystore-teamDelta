@@ -1,37 +1,50 @@
+/* Set the styles for the entire App container */
 .App {
-  text-align: center;
+  text-align: center; /* Center the text inside the container */
 }
 
+/* Set the styles for the App logo */
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 40vmin; /* Set the height of the logo to 40% of the viewport height (vmin) */
+  pointer-events: none; /* Disable pointer events on the logo so it won't interfere with interactions */
 }
 
+/* Apply an animation to the App logo when prefers-reduced-motion is not set to 'reduce' */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear; /* Apply a spin animation to the logo that repeats infinitely for 20 seconds */
   }
 }
 
+/* Set the styles for the App header */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #282c34; /* Set the background color of the header to a dark color (#282c34) */
+  min-height: 100vh; /* Set the minimum height of the header to occupy the full viewport height (100vh) */
+  /* 
+     Use flexbox to enable flexible layout and positioning of child elements.
+     Arrange child elements in a column direction.
+     Align child elements along the cross axis (horizontally) to the center.
+     Align child elements along the main axis (vertically) to the center.
+  */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(10px + 2vmin); /* Set the font size to be responsive to the viewport size */
+  color: white; /* Set the text color to white */
 }
 
+/* Set the styles for links with the class "App-link" */
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* Set the color of the links to a light blue color (#61dafb) */
 }
 
+/* Define the keyframes for the App logo spin animation */
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* Starting keyframe: The logo starts at 0 degrees rotation */
   }
+  /* Ending keyframe: The logo completes a full 360 degrees rotation */
   to {
     transform: rotate(360deg);
   }
