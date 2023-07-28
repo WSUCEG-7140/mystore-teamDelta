@@ -24,7 +24,7 @@ import java.util.List; // Import Java utility class for List
  *
  * The User class encapsulates information about an User. Objects of this class can be used to
  * store and retrieve User-related information in the Mystore application.
- * See [Issue6] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/6)
+ * See [Issue6] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/6).
  */
     
 public class User {
