@@ -1,26 +1,32 @@
 /* UserProfile.css */
+/* Set the styles for the profile container */
+
 .profile-container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
+  max-width: 600px; /* Set the maximum width of the container to be 600 pixels */
+  margin: 0 auto; /* Center the container horizontally by setting auto margins */
+  padding: 20px; /* Add padding inside the container to create space between content and border */
+  text-align: center; /* Align the text within the container to the center */
 }
 
+/* Set the styles for the profile picture */
 .profile-picture {
+  /* Set the width and height of the profile picture to be 150 pixels each */
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 20px;
+  border-radius: 50%; /* Apply a border-radius of 50% to create a circular shape for the picture */
+  object-fit: cover; /* Use object-fit to control how the picture is resized within its container */
+  margin-bottom: 20px; /* Add margin at the bottom of the profile picture to create space below it */
 }
 
+/* Set the styles for the h1 element */
 h1 {
-  font-size: 24px;
+  font-size: 24px; /* Set the font size of the heading to 24 pixels */
 }
 
+/* Set the styles for the p elements (paragraphs) */
 p {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 18px;  /* Set the font size of the paragraphs to 18 pixels */
+  margin-bottom: 10px; /* Add margin at the bottom of the paragraphs to create space below them */
 }
 
 /* Add more styles as needed */
