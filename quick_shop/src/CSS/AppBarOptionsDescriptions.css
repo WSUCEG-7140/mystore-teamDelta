@@ -1,10 +1,12 @@
+/* Set the styles for the container of the app bar options */
+
 .AppBarOptionsDescriptionContainer{
-    width:60%;
-    height: 400px;
-    background-color: rgb(112,68,52);
-    display: flex;
-    justify-items: center;
-    position: absolute;
-    margin-left: 20%;
-    margin-top: -26.5em;
+    width:60%; /* Set the width of the container to occupy 60% of its parent's width */
+    height: 400px; /* Set the height of the container to be 400 pixels */
+    background-color: rgb(112,68,52); /* Set the background color to a dark brownish tone using RGB values */
+    display: flex; /* Use flexbox to enable flexible layout and positioning of child elements */
+    justify-items: center; /* Horizontally center the child elements within the container */
+    position: absolute; /* Set the container's position to be absolute, allowing precise positioning */
+    margin-left: 20%; /* Set the left margin of the container to be 20% of its parent's width */
+    margin-top: -26.5em; /* Shift the container upward by 26.5em (em units relative to the font size) */
 }
