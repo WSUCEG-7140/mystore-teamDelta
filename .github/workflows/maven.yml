@@ -31,13 +31,7 @@ jobs:
         
     - name: Build with Maven
       run: mvn -B package --file server/pom.xml
-      
-    - name: Upload coverage report
-      # Upload the coverage report as an artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: Coverage Report
-        path: cov-report/
+    
 
     - name: Install Doxygen (Ubuntu)
       # Install Doxygen on Ubuntu
