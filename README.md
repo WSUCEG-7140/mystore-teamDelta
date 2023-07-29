@@ -108,7 +108,7 @@ This project is licensed under the MIT License.
 
 ## Commits
 
-### Below are the 10 commits by niharika poreddy:
+### Below are the 10 commits by niharika-poreddy:
 
 https://github.com/WSUCEG-7140/mystore-teamDelta/commit/8c8fb8f1d67cfeccbac00c27e6ad33b460c02405
 
@@ -143,3 +143,33 @@ https://github.com/WSUCEG-7140/mystore-teamDelta/pull/65/commits/d080eaefb9298e2
 https://github.com/WSUCEG-7140/mystore-teamDelta/pull/65/commits/b161490fb8ec593c80c31ad64e809a326b4b33db
 
 https://github.com/WSUCEG-7140/mystore-teamDelta/pull/46/commits/fd51be07fb96ee33f0ea04ae360add75a1f6afaf 
+
+https://github.com/WSUCEG-7140/mystore-backend-delta/pull/4/commits/581c964c1d2b711304f6f656d100264de0717816
+
+https://github.com/WSUCEG-7140/mystore-teamDelta/pull/46/commits/3cdee534936cf675abf71294300877f78de3ba0c
+
+https://github.com/WSUCEG-7140/mystore-teamDelta/pull/66/commits/005c31c7e4137665f173e7bad46f53b8fcc142f7
+
+https://github.com/WSUCEG-7140/mystore-teamDelta/pull/76/commits/06a0b446b6bb4c6b4be1a2ac75efa0ec1b6308d6 
+
+### Below are the 10 commits by 161FA04368:
+
+https://github.com/WSUCEG-7140/mystore-teamDelta/pull/70/commits/3618ac8fbe4a6ef435bc27bf587e502026c2b4d3
+
+https://github.com/WSUCEG-7140/mystore-teamDelta/pull/70/commits/f15cf36685bea473c37493054ee8fedbe7a9825a
+
+https://github.com/WSUCEG-7140/mystore-teamDelta/pull/69/commits/3fac8d53872e683c816aea1ef3c4f0f14cd0ccf1
+
+https://github.com/WSUCEG-7140/mystore-teamDelta/pull/69/commits/e09f775b4098912be6b1b158658613efb277cbfe
+
+https://github.com/WSUCEG-7140/mystore-teamDelta/pull/68/commits/d16bf31ab95d2e25ec21682ce596aa5d8af95c22
+
+https://github.com/WSUCEG-7140/mystore-teamDelta/pull/68/commits/3f4b4dba6169b70fa6dfed5c8adff73819fb6248
+
+https://github.com/WSUCEG-7140/mystore-teamDelta/pull/67/commits/13e842b709b59a10e4b2daeebf199f6b7ad43d56
+
+https://github.com/WSUCEG-7140/mystore-teamDelta/pull/51/commits/32291aa6075a1b9914fa01d96bf0b084d454998b
+
+https://github.com/WSUCEG-7140/mystore-teamDelta/pull/45/commits/f9dd77743e02294ce8dad10188e01def9dc4582b
+
+https://github.com/WSUCEG-7140/mystore-teamDelta/pull/70/commits/f15cf36685bea473c37493054ee8fedbe7a9825a 
