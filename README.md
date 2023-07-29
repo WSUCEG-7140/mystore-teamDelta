@@ -2,7 +2,7 @@
 
 1.	Niharika poreddy                  (Github UserName: niharika-poreddy)
 
-2.	Chitrabhanu ponna                 (Github UserName: Chitrabhanu-ponna)
+2.	Chitrabhanu ponna                 (Github UserName: chitrabhanu-ponna)
 
 3.	Krishna kishore Gadiyamula        (Github UserName: 161FA04368)
 
