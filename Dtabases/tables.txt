@@ -1,0 +1,38 @@
+CREATE TABLE inventory (
+  itemId INT PRIMARY KEY,
+  itemName VARCHAR(255) NOT NULL,
+  category VARCHAR(100),
+  cost INT,
+  Supplier VARCHAR(255)
+);
+
+
+CREATE TABLE payments (
+    paymentId VARCHAR(50) PRIMARY KEY,
+    paymentMode VARCHAR(50),
+    amount DECIMAL(10, 2),
+    Status VARCHAR(20)
+);
+
+
+CREATE TABLE users (
+    email VARCHAR(255) NOT NULL,
+    firstName VARCHAR(255) NOT NULL,
+    lastName VARCHAR(255) NOT NULL,
+    mobileNumber VARCHAR(20) PRIMARY KEY,
+    password VARCHAR(255) NOT NULL,
+    addressLine1 VARCHAR(255) NOT NULL,
+    addressLine2 VARCHAR(255),
+    zipCode VARCHAR(10) NOT NULL,
+    role VARCHAR(50) NOT NULL
+);
+
+
+CREATE TABLE inventory (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    userId VARCHAR(20) NOT NULL,
+    itemName VARCHAR(255) NOT NULL,
+    itemDescription VARCHAR(500),
+    itemPrice DECIMAL(10, 2) NOT NULL,
+    -- Additional fields for the inventory item
+);
