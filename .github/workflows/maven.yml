@@ -29,8 +29,8 @@ jobs:
         distribution: 'temurin'
         cache: maven
         
-    - name: Build with Maven
-      run: mvn -B package --file server/pom.xml
+    - name: Build with Maven and Run Tests
+      run: mvn -B clean verify --file server/pom.xml
     
 
     - name: Install Doxygen (Ubuntu)
