@@ -46,3 +46,12 @@ jobs:
       with:
         name: Documentation
         path: html/
+    
+    - name: Generate Code Coverage Report
+      run: mvn -B jacoco:report --file server/pom.xml
+
+    - name: Upload Code Coverage Report
+      uses: actions/upload-artifact@v2
+      with:
+        name: Coverage Report
+        path: server/target/site/jacoco/
