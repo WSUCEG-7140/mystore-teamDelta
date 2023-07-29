@@ -12,22 +12,22 @@ NONE
  Each team member shared their progress:
 
 Niharika poreddy: 
-I am done with creating tables in data base and started working on creating registration from backend to store customer details in respective details, no backlogs as of now.
+I am done with creating tables in data base and started working on (Issue#2) creating registration page for the user to register and create an account, no backlogs as of now.
 
 Alekhya-WSU: 
-I am done with creating API endpoints for registration page and performed unit testing and started working on ER diagrams for tables.
+I am done with creating API endpoints for registration page and performed unit testing and started working on(Issue#17) ER diagrams for tables.
 
 yatasrivaishnavi: 
-Automated testing configuration is done faced few dificulties while configuring but finally implemeted, and now started working on adding backend repo and user login API.
+Automated testing configuration is done faced few dificulties while configuring but finally implemeted, and now started working on (Issue#47) adding backend repo and user login API.
 
 KarthikDyava: 
-I have done all setups required for the application. I am currently working API endpoints for searching products from the database using methods. 
+I have done all setups required for the application. I am currently working (Issue#3) API endpoints for searching products from the database using methods. 
 
 Chitrabhanu-ponna: 
-I am done with intial analysing of requirements for shoping cart and labeled them. and started working on API documentation for spring boot apis.
+I am done with intial analysing of requirements for shoping cart and labeled them. and started working on (Issue#8) API documentation for spring boot apis.
 
 Krishnakishore Gadiyamula: 
-I am done with finilizing the design cart and started working on creating api endpoints for login page.
+I am done with finilizing the design cart and started working on (Issue#6) creating api endpoints for login page.
 
 ## Decisions Made:
 The following decisions are made in the standup:
