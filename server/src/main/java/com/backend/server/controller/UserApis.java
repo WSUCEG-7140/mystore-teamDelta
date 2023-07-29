@@ -37,6 +37,12 @@ public class UserApis {
     public void userLogin(){
     }
 
+    @PostMapping("/healthInventory") 
+    String getHealth(){ 
+
+        return "Inventory API is up and healthy"; 
+    }
+
     /**
      * @brief Implementation for adding new user Information.
      *
