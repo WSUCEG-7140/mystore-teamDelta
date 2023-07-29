@@ -55,7 +55,8 @@ public class InventoryApis {
      */
     @PostMapping("/addTransaction") 
     String addTransactions(Payment payment){
-        return paymentService.addPayment(payment);
+         paymentService.addPayment(payment);
+        return "Transaction saved successfully!"
     }
 
     /**
