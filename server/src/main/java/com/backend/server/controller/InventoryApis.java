@@ -68,7 +68,7 @@ public class InventoryApis {
     @PostMapping("/healthInventory") 
     String getHealth(){ 
 
-        return "Inventory API is up and healthy"); 
+        return "Inventory API is up and healthy"; 
     }
 
 
