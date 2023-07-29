@@ -55,6 +55,23 @@ public class InventoryApis {
         return inventoryService.addItem(inventory); 
     }
 
+     /**
+     * @brief Check health for the APIs.
+     *
+     * This method check whether the AInventory API is up and running.
+     * @param inventory contains empty params.
+     * @pre Application should be UP.
+     * @return the health status of the application API.
+     * See [Issue11] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/89)
+     */
+    
+    @PostMapping("/healthInventory") 
+    String getHealth(){ 
+
+        return "Inventory API is up and healthy"); 
+    }
+
+
     /**
      * @brief Geeting Inventory Items based on their Ids.
      *
