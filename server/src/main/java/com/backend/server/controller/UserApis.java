@@ -36,11 +36,19 @@ public class UserApis {
     @PostMapping("/login")  
     public void userLogin(){
     }
-
-    @PostMapping("/healthInventory") 
+    /**
+     * @brief Check health for the APIs.
+     *
+     * This method check whether the User API is up and running.
+     * @param inventory contains empty params.
+     * @pre Application should be UP.
+     * @return the health status of the User API.
+     * See [Issue11] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/89)
+     */
+    @PostMapping("/healthUser") 
     String getHealth(){ 
 
-        return "Inventory API is up and healthy"; 
+        return "User API is up and healthy"; 
     }
 
     /**
