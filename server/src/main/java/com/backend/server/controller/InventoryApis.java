@@ -1,7 +1,9 @@
 package com.backend.server.controller; // Package declaration for the "controller" package under "com.backend.server"
 
 import com.backend.server.Model.Inventory; // Import the Inventory model class
+import com.backend.server.Model.Payment; // Import the Payment model class
 import com.backend.server.service.InventoryService; // Import the InventoryService class
+import com.backend.server.service.PaymentService; // Import the PaymentService class
 import org.springframework.beans.factory.annotation.Autowired; // Import Spring annotation for dependency injection
 import org.springframework.web.bind.annotation.*; // Import Spring Web annotations for controller and request mapping
 
@@ -22,6 +24,9 @@ public class InventoryApis {
     @Autowired // Enables automatic injection of an InventoryService bean
     InventoryService inventoryService;
 
+    @Autowired // Enables automatic injection of an InventoryService bean
+    PaymentService paymentService;
+
     /**
      * @brief Updates Inventory Items from the database.
      *
@@ -36,6 +41,21 @@ public class InventoryApis {
     @PostMapping("/updateItem") 
     Inventory updateItem(@RequestBody Inventory item){ 
         return inventoryService.updateItem(item); 
+    }
+
+    /**
+     * @brief Updates Inventory Items from the database.
+     *
+     * This method request the body contains the updated Payment item.
+     * @param payment contains the updated information of the transaction.
+     * @pre The database connection must be established and valid.
+     * @return the updated item by calling the PaymentService to update.
+     * @post the HTTP POST endpoint to update an Payment item.
+     * See [Issue13] (https://github.com/WSUCEG-7140/mystore-teamDelta/issues/32).
+     */
+    @PostMapping("/addTransaction") 
+    String addTransactions(Payment payment){
+        return paymentService.addPayment(payment);
     }
 
     /**
